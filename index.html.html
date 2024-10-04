@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page</title>
+    <style>
+body{
+    background-image:url(/logo\ image.png) ;
+    background-size: cover;
+}
+    </style>
+</head>
+
+<body>
+    <div class="select">
+    <form>
+        <center>
+            <h1>MIDDLE   SCHOOL</h1>
+           <span> Application  Form</span>
+        </center>
+        <label for="name">Parents/Guardian name:</label><br>
+        <input type="text" placeholder="first" required>
+        <input type="text" id="name" placeholder="last" required>
+        <br><br>
+        <label for="message">How old your child will be when they start out the school year</label><br>
+        <input type="text" id="message"><br><br>
+        <label for="name">child name:</label><br>
+        <input type="text" id="name" placeholder="first">
+        <input type="text" id="name" placeholder="last"><br><br>
+        <label for="address">Home Adress:</label><br>
+        <input type="text" style="width: 500px; height: 30px;" id="address" placeholder="street address"><br><br>
+        <input type="text" style="width: 500px; height: 30px;" id="address" placeholder="street address line 2"><br><br>
+        <input type="text" style="width: 200px; height: 25px;" id="address" placeholder="city">
+        <input type="text" style="width: 200px; height: 25px;" id="address" placeholder="Region"><br><br>
+        <input type="text" style="width: 200px; height: 25px;" id="address" placeholder="Postal zib code">
+        <label for="country"></label>
+        <select id="country" style="width: 200px; height: 25px;">
+            <option value="india">India</option>
+            <option value="indonesia">indonesia</option>
+            <option value="america">america</option>
+            <option value="austrialia">austrialia</option>
+        </select><br><br>
+        <label for="number">Phone Number:</label><br><br>
+        <input type="number" id="number" placeholder="###   ## ###" required><br><br>
+        </div>
+        <p>Does your child have any disablities /special need</p>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="fav-lauage">
+        <label for="no">No</label>
+        <input type="radio" id="no" name="fav-lauage"><br><br>
+        <input type="checkbox" style="height:50px ; width: 20px;">
+        <label for="checkbox">checkbox</label><br><br>
+        <label for="submit"></label> 
+        <div class="submit"><input class="submit" type="submit" id="submit"></div>
+    </form>
+  </div>
+
+</body>
+
+</html>
